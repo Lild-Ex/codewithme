@@ -31,6 +31,7 @@ body {
 .body-1 {
   background-image: url(img/lukas-bato-Vbbn4xNBfnM-unsplash.jpg);
   background-size: cover;
+  background-position: center;
   height: 60vh;
   margin-bottom: 50px;
   margin-top: 80px;
@@ -88,4 +89,7 @@ button {
 .opt p {
    color: white;
 }
-
+.opt {
+  margin-bottom: 50px;
+margin-left: 90px;
+}
