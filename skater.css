@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(34, 34, 34);
+}
+
+/* Nav Bar */
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.nav-list ul {
+  list-style: none;
+  text-align: center;
+  gap: 20px;
+  display: flex;
+  margin-left: 700px;
+}
+.Nav {
+  margin-left: 20px;
+}
+
+/* Section Body1 */
+
+.body-1 {
+  background-image: url(img/lukas-bato-Vbbn4xNBfnM-unsplash.jpg);
+  background-size: cover;
+  height: 60vh;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+.body1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+
+}
+.bodysec {
+  
+    padding: auto;
+}
+
+.ser {
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.col {
+  color: orange;
+}
+
+button {
+   color: white;
+   background-color: transparent;
+   border-color: white;
+   border: 2px solid;
+   padding: 8px;
+   margin-top: 10px;
+}
+
+.ser-opt {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: repeat(2, auto);   /* 2 rows */
+  gap: 10px; /* optional spacing */
+  margin: 50px;
+  justify-content: space-between;
+}
+
+.icon{
+   color: orange;
+}
+.opt h3 {
+   color: orange;
+}
+
+.opt p {
+   color: white;
+}
+
