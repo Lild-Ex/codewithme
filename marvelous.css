@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+}
+
+/* NavBar Section */
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading img {
+  width: 80px;
+  height: 80px;
+}
+.logo-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 60px;
+}
+.NavBar ul {
+  display: flex;
+  list-style: none;
+  gap: 80px;
+  margin-right: 15px;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url(img/WhatsApp\ Image\ 2026-05-07\ at\ 1.35.35\ PM.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 120vh;
+  margin-top: 40px;
+}
+.hero-cont {
+  margin-left: 50px;
+}
+.hero-cont h4 {
+  color: #0e7f76;
+}
+.hero-cont h1 {
+  font-size: 60px;
+}
+.hero-cont p {
+  margin-top: 20px;
+}
+.hero-cont button {
+  width: 220px;
+  height: 50px;
+  border-radius: 50px;
+  border: 0;
+  background-color: #d3ea28;
+  margin-top: 50px;
+  font: bolder;
+}
+
+/* Top Section */
+
+.top-head {
+  text-align: center;
+  margin-top: 40px;
+}
+.top-head h4 {
+    color: aqua;
+}
+.top-part {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.top img {
+  width: 250px;
+  height: 200px;
+  border-radius: 20px;
+}
