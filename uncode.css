@@ -1,0 +1,59 @@
+ * {
+    margin: 0;
+ }
+ .NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+ }
+ .logo-name {
+    margin-left: 20px;
+ }
+ .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 400px;
+ }
+ .search-icon {
+    margin-right: 20px;
+ }
+ .hero {
+    height: 80vh;
+    background-image: url(img/uncodeimg.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ .hero-cont {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    text-align: center;
+ }
+ .hero-cont h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+ }
+ .hero-cont input {
+    width: 800px;
+    height: 50px;
+ }
+ .end {
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+ }
+ .icon-1 {
+    font-size: 40px;
+ }
+ .end h2 {
+    margin-top: 10px;
+ }
+ .end p {
+    margin-top: 10px;
+ }

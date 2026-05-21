@@ -63,7 +63,7 @@
   margin-top: 40px;
 }
 .top-head h4 {
-    color: aqua;
+  color: aqua;
 }
 .top-part {
   display: flex;
@@ -77,3 +77,145 @@
   height: 200px;
   border-radius: 20px;
 }
+
+/* Step Section */
+.step {
+  background-image: url(img/photo_2026-05-11_10-13-24.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  margin-bottom: 40px;
+}
+.step-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.step-hp {
+  margin-bottom: 50px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.step-hp h4 {
+  margin-bottom: 20px;
+  color: blue;
+}
+.step-list {
+  margin-top: 100px;
+  margin-right: 250px;
+}
+.step-list1 {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 60px;
+}
+.no1 {
+  height: 50px;
+  width: 50px;
+  background-color: #d3ea28;
+  border: 0;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no1-hp h3 {
+  color: #0e7f76;
+  margin-bottom: 10px;
+}
+.service-hd {
+  text-align: center;
+}
+.service-hd h3 {
+  color: rgb(53, 104, 87);
+}
+.service-icon {
+  display: flex;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+.iconn {
+  font-size: 60px;
+}
+.icon-b h3 {
+  color: rgb(17, 17, 78);
+  margin-bottom: 10px;
+}
+.sec {
+  display: flex;
+  justify-content: space-between;
+}
+.sec-left {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+.back-box {
+  position: absolute;
+  background-color: rgb(237, 234, 234);
+  width: 500px;
+  height: 200px;
+  z-index: 1;
+  top: 70px;
+  left: 80px;
+}
+.back-box-tx {
+margin-top: 140px;
+margin-left: 20px;
+color: blue;
+}
+.box {
+  position: absolute;
+  background-color: rgb(255, 245, 245);
+  width: 500px;
+  height: 200px;
+  z-index: 2;
+  margin-left: 20px;
+}
+.pp {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.sec-left-hp {
+  margin: 20px;
+  margin-left: 20px;
+  color: blue;
+}
+.sec-right {
+  margin-right: 80px;
+}
+.sec-right h4 {
+  color: blue;
+}
+.sec-right h1 {
+  font-size: 50px;
+}
+.endpart {
+  height: 150px;
+  background-color: #d3ea28;
+  text-align: center;
+  align-content: center;
+}
+.sec-img img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  z-index: 3;
+  bottom: 380px;
+}
+.dot span {
+  width: 10px;
+  height: 10px;
+  background-color: gainsboro;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.dot .active  {
+  background-color: black;
+}
+
